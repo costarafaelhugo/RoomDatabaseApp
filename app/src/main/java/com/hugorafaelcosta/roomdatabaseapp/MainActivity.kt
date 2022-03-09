@@ -1,7 +1,9 @@
 package com.hugorafaelcosta.roomdatabaseapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.hugorafaelcosta.roomdatabaseapp.database.AppDatabase
+import com.hugorafaelcosta.roomdatabaseapp.databinding.ActivityNewUserBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
